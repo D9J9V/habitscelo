@@ -35,7 +35,7 @@ export default function Home() {
           onClick={async () => {
             setLoading(true);
             await transferCUSD(
-              "0xE1061b397cC3C381E95a411967e3F053A7c50E70",
+              "0xfC5fA9EE7EEA94a038d8f6Ece9DEb419D346BBe4",
               address as string
             );
             setLoading(false);
